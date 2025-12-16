@@ -21,21 +21,6 @@ The project focuses on data preprocessing, review aggregation, feature extractio
 - **Environment:** Jupyter Notebook / Python scripts  
 - **Version Control:** Git & GitHub  
 
----
-
-## 📂 Project Structure
-
-Cross-Domain-Review-Aware-Recommendation-System/
-│
-├── notebooks/ # Jupyter notebooks for experiments
-├── src/ # Python source code
-├── results/ # Evaluation results and outputs
-├── README.md # Project documentation
-└── .gitignore # Ignored large files and datasets
-
-
----
-
 ## 📊 Dataset Information
 ⚠️ **Note:**  
 Large datasets and trained model files are **not included in this repository** due to GitHub size limitations.
