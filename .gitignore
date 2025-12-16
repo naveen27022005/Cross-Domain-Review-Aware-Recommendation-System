@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large data files
+*.parquet
+*.pt
+*.png
+
+# Virtual env
+venv/
+.env
