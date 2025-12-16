@@ -1,0 +1,14 @@
+\begin{tabular}{llllllll}
+\toprule
+Model & RMSE↓ & MAE↓ & Acc@1↑ & Var & Cold-Start & Cross-Domain & Domain Sep. \\
+\midrule
+Matrix Factorization & 0.8797 & 0.6207 & 82.2% & 0.650 & Fallback Only & No & No \\
+Content-Based (No Cross-Domain) & 0.8797 & 0.6207 & 82.2% & 0.650 & Fallback Only & No & No \\
+Collaborative Filtering & 0.9309 & 0.6520 & 80.0% & 0.584 & Fallback Only & No & No \\
+Zero-Shot LLM (No Fine-tune) & 0.9525 & 0.6824 & 76.8% & 0.701 & Fallback Only & No & No \\
+Simple Neural Network & 0.9859 & 0.7073 & 75.1% & 0.731 & Fallback Only & No & No \\
+Popularity-Based & 1.0970 & 0.8628 & 81.2% & 0.059 & Fallback Only & No & No \\
+Demographic Filtering & 1.1401 & 0.8846 & 72.4% & 0.297 & Fallback Only & No & No \\
+Branch B (Ours) & 1.3695 & 1.0933 & 55.0% & 1.015 & Yes & Yes & Yes \\
+\bottomrule
+\end{tabular}
